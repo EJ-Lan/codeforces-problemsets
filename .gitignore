@@ -1,0 +1,14 @@
+*.exe
+*.out
+*.o
+*.obj
+
+[0-9]*[A-Z]*
+![0-9]*[A-Z]*.cpp
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
