@@ -21,6 +21,7 @@ Each solution file follows this format:
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
+using ll = long long;
 
 void solve() {
 	// logic for one test case
@@ -38,6 +39,7 @@ int main() {
 
 - `#include <bits/stdc++.h>`: pulls in most standard C++ headers quickly.
 - `using namespace std;`: avoids writing `std::` repeatedly.
+- `using ll = long long;`: avoids writing out `long long`.
 - `ios::sync_with_stdio(false); cin.tie(nullptr);`: faster input/output.
 - `solve()`: handles one test case.
 - `main()`: reads `t` and runs `solve()` `t` times.
